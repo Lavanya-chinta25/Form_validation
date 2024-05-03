@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>FORM_VALIDATION</title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="A"><div id="a">
+        <div id="a3">
+            <p id="content1" align="center">Every new friend is a<br> new adventure<br>let's get connected!</p>
+      
+         <div id="a22">
+         </div>
+        </div>
+        <div id="a1">
+            <p id="hea">SignUp</p>
+            <div id="b7" onmouseover="highlight3()" onmouseout="nohighlight3()">
+                <img height="15px" width="15px" src="man.png" onmouseover="view()" onmouseout="unview()">
+                <input type="text" id="name" placeholder="Enter your name"><br>
+            </div>
+            <div id="b1" onmouseover="highlight1()" onmouseout="nohighlight1()">
+            <img  height="15px" width="15px" src="email.png" >
+            <input type="email" id="mail1" placeholder="Enter your email">
+            <label id="invalid" style="visibility:hidden;">Invalid</label>
+            </div>
+            <div id="b2" onmouseover="highlight2()" onmouseout="nohighlight2()">
+            <img id="lock" height="15px" width="15px" src="lock.png" onmouseover="view1()" onmouseout="unview1()">
+            <input type="password" id="password1" placeholder="Enter your password"><br>
+            </div>
+            <div id="b3">
+                <a href="#" id="forgot" target="_blank">Forgot Password?</a>
+            </div>
+            <div id="b4">
+                <button id="signup" onclick="check1()">SignUp</button>
+            </div>
+            <div id="b8">
+                Already have an account?<a href="index.html" id="log" target="_parent">Login now</a>
+            </div>
+    </div>    
+    </div></div>
+    <script src="validate.js"></script>
+    </body>
+</html>
